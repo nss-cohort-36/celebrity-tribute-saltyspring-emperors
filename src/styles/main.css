@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #d3a01570;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex: 0 0 auto;
+    height: 100px;
+    font-family: "Copperplate";
+    background-color: #f8d348;
+    border: 5px solid #439ac8;
+    font-size: 25px;
+    top: 0;
+}
+
+#logo {
+    height: 100px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+}
+
+main {
+    flex: 1 1 auto;
+    position: relative;
+    overflow-y: auto;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.summary>section {
+    flex-basis: 100px;
+}
+
+.social {
+    height: 50px;
+    background-color: #439ac8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.fa {
+    width: 50px;
+}
