@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 
 .navbar {
@@ -45,7 +46,6 @@ main {
     flex: 1 1 auto;
     position: relative;
     overflow-y: auto;
-    padding-top: auto;
 }
 
 .summary, .career  {
@@ -53,8 +53,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding-top: 20px;
-    height: 100%;
+    height: auto;
     padding-bottom: 50px;
 }
 
@@ -68,7 +67,7 @@ main {
 }
 
 .summary>section+section {
-    border-top: 5px solid #74909f;
+    border-top: 5px dotted #439ac8;
     margin-top: 20px;
 }
 
@@ -76,7 +75,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
 }
 
 .summary__image {
@@ -86,7 +84,8 @@ main {
 
 .social {
     height: 50px;
-    background-color: #439ac8;
+    /* background-color: #439ac8; */
+    background-color: #d13326;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -110,6 +109,7 @@ a:active {
 .active {
     color: grey;
 }
+
 section {
     width: auto;
 }
@@ -118,4 +118,14 @@ section {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.summary__collaboratorList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.summary__collaboratorList > li {
+    flex-basis: 50%;
 }
