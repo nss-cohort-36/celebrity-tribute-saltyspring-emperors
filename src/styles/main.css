@@ -61,7 +61,7 @@ main {
     padding-bottom: 50px;
 }
 
-.summary>section {
+.summary > section {
     flex-basis: 1 0 auto;
     width: 100%;
     text-align: center;
@@ -70,7 +70,7 @@ main {
     margin-bottom: 30px;
 }
 
-.summary>section+section {
+.summary > section + section {
     border-top: 5px dotted #439ac8;
     margin-top: 20px;
 }
@@ -139,7 +139,7 @@ section {
     align-items: center;
 }
 
-.summary__collaboratorList>li>img {
+.summary__collaboratorList > li > img {
     width: 200px;
     border: 2px solid #74909f;
 }
