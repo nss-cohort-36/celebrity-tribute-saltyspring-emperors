@@ -1,0 +1,11 @@
+
+.personal_family_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.personal_family_content img {
+    width: 200px;
+}
+
