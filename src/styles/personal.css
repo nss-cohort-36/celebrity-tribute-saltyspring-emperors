@@ -1,12 +1,22 @@
-
-
 .personal_family_content {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
 }
 
 .personal_family_content img {
     width: 200px;
+    padding: 5px;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.personal_family_content_entry {
+    background-color: white;
+    
+}
