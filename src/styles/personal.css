@@ -1,12 +1,39 @@
-
-
 .personal_family_content {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    justify-content: center;
 }
 
 .personal_family_content img {
     width: 200px;
+    padding: 0 5px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
+article {
+    padding: 5px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border-top: 5px dotted #439ac8;
+}
+    
+
+.personal_family_content_entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caption {
+    color: white;
+    background-color: black;
+    width: 200px;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
