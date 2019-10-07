@@ -1,0 +1,10 @@
+.career {
+    display: flex;
+    
+}
+
+.intro {
+    display: flex;
+    justify-items: center;
+    width: 60%;
+}
