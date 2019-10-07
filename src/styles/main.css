@@ -1,13 +1,16 @@
 html {
     height: 100%;
+    min-width: 300px;
+    font-family: "Gill Sans";
+    font-size: 20px;
 }
 
 body {
     background-color: #d3a01570;
     height: 100%;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .navbar {
@@ -17,7 +20,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex: 0 0 auto;
-    height: 100px;
+    min-height: 100px;
     font-family: "Copperplate";
     background-color: #f8d348;
     border: 5px solid #439ac8;
@@ -42,6 +45,7 @@ main {
     flex: 1 1 auto;
     position: relative;
     overflow-y: auto;
+    padding-top: auto;
 }
 
 .summary {
@@ -49,11 +53,35 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding-top: 20px;
     height: 100%;
+    padding-bottom: 50px;
 }
 
 .summary>section {
-    flex-basis: 100px;
+    flex-basis: 1 0 auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 30px;
+}
+
+.summary>section+section {
+    border-top: 5px solid #74909f;
+    margin-top: 20px;
+}
+
+.summary__profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.summary__image {
+    max-width: 90%;
+    border: 2px solid #74909f;
 }
 
 .social {
@@ -64,9 +92,19 @@ main {
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
-    flex: 0 0 auto;
+    flex: 1 0 auto;
 }
 
 .fa {
     width: 50px;
+}
+
+section {
+    width: auto;
+}
+
+.summary__aliasList, .summary__collaboratorList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
