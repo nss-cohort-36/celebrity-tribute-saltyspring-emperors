@@ -7,17 +7,20 @@
 
 .personal_family_content img {
     width: 200px;
-    padding: 5px;
+    padding: 0 5px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
+article {
+    padding: 5px;
+}
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    border: solid 1px white;
-    border-radius: 10px;
-    padding: 3px;
+    border-top: 5px dotted #439ac8;
 }
     
 
@@ -26,7 +29,11 @@ section {
     flex-direction: column;
     align-items: center;
 }
-/* .caption {
-    display: flex;
-    align-items: center;
-} */
+.caption {
+    color: white;
+    background-color: black;
+    width: 200px;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
