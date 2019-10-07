@@ -1,11 +1,14 @@
 html {
     height: 100%;
     min-width: 300px;
-    font-family: "Gill Sans";
+    font-family: "Trebuchet MS";
     font-size: 20px;
 }
 
 body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
     background-color: #d3a01570;
     height: 100%;
     display: flex;
@@ -124,8 +127,31 @@ section {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    width: 100%;
 }
 
 .summary__collaboratorList > li {
+    justify-content: center;
     flex-basis: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.summary__collaboratorList > li > img {
+    width: 200px;
+    border: 2px solid #74909f;
+}
+
+.collaborator__name {
+    background-color: #74909f;
+    justify-content: center;
+    width: 200px;
+    border-top: 2px solid #74909f;
+    border-left: 2px solid #74909f;
+    border-right: 2px solid #74909f;
+}
+
+header, footer {
+    flex-grow: 1;
 }
