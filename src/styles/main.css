@@ -26,7 +26,7 @@ body {
     align-items: center;
     flex: 0 0 auto;
     min-height: 100px;
-    font-family: "Copperplate";
+    font-family: "Marcellus";
     background-color: #f8d348;
     border: 5px solid #439ac8;
     font-size: 25px;
@@ -71,8 +71,13 @@ main {
 }
 
 .summary > section + section {
-    border-top: 5px dotted #439ac8;
+    border-top: 5px solid #439ac8;
     margin-top: 20px;
+}
+
+.summary__title {
+    font-family: "Marcellus";
+    font-size: 50px;
 }
 
 .summary__profile {
@@ -83,7 +88,7 @@ main {
 
 .summary__image {
     max-width: 90%;
-    border: 2px solid #439ac8;
+    border: 2px solid black;
 }
 
 .social {
