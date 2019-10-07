@@ -17,7 +17,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex: 0 0 auto;
-    height: 100px;
+    min-height: 100px;
     font-family: "Copperplate";
     background-color: #f8d348;
     border: 5px solid #439ac8;
@@ -49,11 +49,18 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding-top: 100px;
     height: 100%;
 }
 
 .summary>section {
-    flex-basis: 100px;
+    flex-basis: 1 0 100px;
+    width: auto;
+    text-align: center;
+}
+
+.summary__image {
+    width: auto;
 }
 
 .social {
@@ -69,4 +76,9 @@ main {
 
 .fa {
     width: 50px;
+}
+
+/* testing stuff */
+section {
+    width: 400px;
 }
