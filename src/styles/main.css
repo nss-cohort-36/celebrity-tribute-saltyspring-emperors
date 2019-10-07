@@ -67,7 +67,7 @@ main {
 }
 
 .summary>section+section {
-    border-top: 5px solid #74909f;
+    border-top: 5px dotted #439ac8;
     margin-top: 20px;
 }
 
@@ -84,7 +84,8 @@ main {
 
 .social {
     height: 50px;
-    background-color: #439ac8;
+    /* background-color: #439ac8; */
+    background-color: #d13326;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
