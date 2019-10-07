@@ -9,6 +9,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
+    margin-bottom: auto;
     background-color: #d3a01570;
     height: 100%;
     display: flex;
@@ -46,12 +47,12 @@ a:visited {
 }
 
 main {
-    flex: 1 1 auto;
+    flex: 1 1 100%;
     position: relative;
     overflow-y: auto;
 }
 
-.summary, .career  {
+.summary, .career {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,7 +131,7 @@ section {
     width: 100%;
 }
 
-.summary__collaboratorList > li {
+.summary__collaboratorList>li {
     justify-content: center;
     flex-basis: 50%;
     display: flex;
@@ -138,7 +139,7 @@ section {
     align-items: center;
 }
 
-.summary__collaboratorList > li > img {
+.summary__collaboratorList>li>img {
     width: 200px;
     border: 2px solid #74909f;
 }
