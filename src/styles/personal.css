@@ -20,10 +20,13 @@ section {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    border-top: 5px dotted #439ac8;
+    border-bottom: 5px solid #439ac8;
+}
+
+.personal_family {
+    border-bottom: 0px;
 }
     
-
 .personal_family_content_entry {
     display: flex;
     flex-direction: column;
