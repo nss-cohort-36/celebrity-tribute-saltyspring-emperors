@@ -1,11 +1,15 @@
 html {
     height: 100%;
     min-width: 300px;
-    font-family: "Gill Sans";
+    font-family: "Trebuchet MS";
     font-size: 20px;
 }
 
 body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     background-color: #d3a01570;
     height: 100%;
     display: flex;
@@ -43,12 +47,12 @@ a:visited {
 }
 
 main {
-    flex: 1 1 auto;
+    flex: 1 1 100%;
     position: relative;
     overflow-y: auto;
 }
 
-.summary, .career  {
+.summary, .career {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,7 +61,7 @@ main {
     padding-bottom: 50px;
 }
 
-.summary>section {
+.summary > section {
     flex-basis: 1 0 auto;
     width: 100%;
     text-align: center;
@@ -66,7 +70,7 @@ main {
     margin-bottom: 30px;
 }
 
-.summary>section+section {
+.summary > section + section {
     border-top: 5px dotted #439ac8;
     margin-top: 20px;
 }
@@ -79,7 +83,7 @@ main {
 
 .summary__image {
     max-width: 90%;
-    border: 2px solid #74909f;
+    border: 2px solid #439ac8;
 }
 
 .social {
@@ -124,8 +128,38 @@ section {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    width: 100%;
 }
 
 .summary__collaboratorList > li {
+    justify-content: center;
     flex-basis: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 5px;
+    max-width: 200px;
+}
+
+.summary__collaboratorList > li > img {
+    max-width: 100%;
+    border: 2px solid black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.collaborator__name {
+    background-color: black;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+header, footer {
+    flex-grow: 1;
 }
