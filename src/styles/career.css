@@ -1,10 +1,54 @@
 .career {
     display: flex;
-    
 }
 
 .intro {
     display: flex;
     justify-items: center;
     width: 60%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.published_works {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.published_items {
+    display: flex;
+    flex-direction: row;
+}
+
+.album_img {
+    width: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+
+.album_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    background-color: grey;
+    width: 200px;
+    border: 2px solid black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.album_title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
