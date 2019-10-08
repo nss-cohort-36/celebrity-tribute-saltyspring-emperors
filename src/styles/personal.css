@@ -20,7 +20,10 @@
     flex-direction: column;
     align-items: center;
     align-content: center;
-    border-bottom: 5px solid #439ac8;
+}
+
+.personal > section + section {
+    border-top: 5px solid #439ac8;
 }
     
 .personal_family_content_entry {
@@ -40,3 +43,7 @@
 .personal p {
     font-weight: 200;
 }
+
+/* .personal_family {
+    border: 5px solid black;
+} */

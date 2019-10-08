@@ -46,10 +46,6 @@ a:visited {
     color: grey;
 }
 
-.navbar a:hover {
-    text-decoration: underline;
-}
-
 main {
     flex: 1 1 100%;
     position: relative;
