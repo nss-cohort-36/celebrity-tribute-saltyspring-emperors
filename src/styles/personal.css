@@ -12,19 +12,15 @@
     border-top-left-radius: 25px;
 }
 
-article {
+.personal {
     padding: 5px;
 }
-section {
+.personal section {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
     border-bottom: 5px solid #439ac8;
-}
-
-.personal_family {
-    border-bottom: 0px;
 }
     
 .personal_family_content_entry {
@@ -39,4 +35,8 @@ section {
     text-align: center;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+}
+
+.personal p {
+    font-weight: 200;
 }
