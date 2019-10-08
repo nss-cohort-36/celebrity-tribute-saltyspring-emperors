@@ -1,7 +1,10 @@
+
+/* changing the font of all text */
 body {
     font-family: "Marcellus";
 }
 
+/* flexbox for the main article */
 .news_events_resources{
     display: flex;
     flex-direction: column;
@@ -9,11 +12,14 @@ body {
     justify-content: space-around;
 }
 
+/* border separating each section */
 .news_events_resources>section+section {
     border-top: 5px solid #439ac8;
     margin-top: 20px;
 }
 
+
+/* flexbox for individual sections */
 section {
     width: 100%;
     text-align: center;
@@ -25,6 +31,7 @@ section {
     align-items: center;
 }
 
+
 .news_section {
     display: flex;
     justify-content: space-between;
@@ -32,6 +39,7 @@ section {
 
 }
 
+/* ordering the individual news links/pictures */
 .news_pics {
     display: flex;
     width: 50%;
@@ -41,11 +49,14 @@ section {
     justify-content: space-around;
 }
 
+/* styling for each image */
 .news_images {
     width: 500px;
     border: 2px solid black;
     border-radius: 25px;
 }
+
+/* flexbox for resources section */
 .resources {
     display: flex;
     justify-content: space-around;
@@ -54,11 +65,13 @@ section {
     flex-wrap: wrap;
 }
 
+
 .resource_links {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
+/* styling for image captions */
 .caption {width: 500px;
 text-align: center;}
