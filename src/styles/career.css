@@ -1,5 +1,8 @@
 .career {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro {
@@ -51,4 +54,23 @@
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+.section_border {
+    border-bottom: 5px solid #439ac8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.places_lived {
+    width: 60%;
+}
+
+.awards {
+    width: 60%;
+}
+
+.career_collabs {
+    width: 60%;
 }
