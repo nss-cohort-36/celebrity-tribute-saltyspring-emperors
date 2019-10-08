@@ -38,9 +38,11 @@
     text-align: center;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    font-size: medium;
 }
 
 .personal p {
+    margin-top: 0px;
     font-weight: 200;
 }
 
