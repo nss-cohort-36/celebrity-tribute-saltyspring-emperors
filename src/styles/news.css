@@ -43,6 +43,8 @@ section {
 
 .news_images {
     width: 500px;
+    border: 2px solid black;
+    border-radius: 25px;
 }
 .resources {
     display: flex;
