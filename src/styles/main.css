@@ -166,3 +166,12 @@ section {
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
+
+a:hover {
+    color: grey;
+}
+
+#logo:hover {
+    background-color: grey;
+    border-radius: 60px;
+}
